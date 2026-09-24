@@ -23,7 +23,7 @@ jobs:
 
      
      - name: OSWAP Dependancy-Check
-       uses: dependancy-check/Dependancy_Check_Action@main
+       uses: dependancy-check/Dependancy-Check_Action@main
        with:
          project: Taskmaster-API
          path: .
