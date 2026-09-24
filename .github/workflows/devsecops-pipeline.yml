@@ -39,7 +39,7 @@ jobs:
 
      - name: Build application
        run: docker compose build
-   dast:
+ dast:
          name: DAST Runtime Verification
          needs: supply_chain
          runs-on: ubuntu-latest
