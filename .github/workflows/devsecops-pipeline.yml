@@ -22,8 +22,8 @@ jobs:
          node-version: 18
 
      
-     - name: OSWAP Dependancy-Check
-       uses: dependancy-check/Dependancy-Check_Action@1.1.0
+     - name: OWASP Dependency-Check
+       uses: dependency-check/Dependency-Check_Action@main
        with:
          project: Taskmaster-API
          path: .
