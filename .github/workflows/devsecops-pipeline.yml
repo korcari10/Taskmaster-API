@@ -33,6 +33,7 @@ jobs:
 
      - name: Snyk
        uses: snyk/actions/node@master
+       working-directory: api
        env:
          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
