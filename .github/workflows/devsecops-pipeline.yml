@@ -33,9 +33,10 @@ jobs:
 
      - name: Snyk
        uses: snyk/actions/node@master
-       working-directory: api
        env:
          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+       with:
+         args: --file=api/package.json
 
 
      - name: Build application
