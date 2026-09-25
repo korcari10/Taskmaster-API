@@ -30,6 +30,10 @@ jobs:
          format: HTML
          out: reports
 
+     - name: Install Node dependencies
+       run: npm ci
+       working-directory: api
+
 
      - name: Snyk
        uses: snyk/actions/node@master
