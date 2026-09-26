@@ -59,7 +59,7 @@ jobs:
 
 
            - name: OSWAP ZAP Baseline Scan
-             uses: zaproxy/action-baseline@v0.12.0
+             uses: zaproxy/action-baseline@v0.15.0
              with:
                target: http://localhost:8080
                allow_issue_writing: false
